@@ -1,0 +1,5 @@
+
+appsecrets.config
+**/bin/*
+**/obj/*
+**.suo
