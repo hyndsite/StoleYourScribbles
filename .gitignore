@@ -3,3 +3,5 @@ appsecrets.config
 **/bin/*
 **/obj/*
 **.suo
+**properties/*
+**Metadata/*
