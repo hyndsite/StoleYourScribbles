@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoleYourScribbles.Web", "StoleYourScribbles.Web\StoleYourScribbles.Web.csproj", "{61BDC321-43AB-46B3-908D-B7DCF6E7E8F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoleYourScribbles.Web", "StoleYourScribbles.Web\StoleYourScribbles.Web.csproj", "{DC440548-C5D9-4B70-B853-9FFF548E6CBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61BDC321-43AB-46B3-908D-B7DCF6E7E8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61BDC321-43AB-46B3-908D-B7DCF6E7E8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61BDC321-43AB-46B3-908D-B7DCF6E7E8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61BDC321-43AB-46B3-908D-B7DCF6E7E8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC440548-C5D9-4B70-B853-9FFF548E6CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC440548-C5D9-4B70-B853-9FFF548E6CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC440548-C5D9-4B70-B853-9FFF548E6CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC440548-C5D9-4B70-B853-9FFF548E6CBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
