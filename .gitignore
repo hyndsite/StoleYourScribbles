@@ -5,3 +5,4 @@ appsecrets.config
 **.suo
 **properties/*
 **Metadata/*
+**.user

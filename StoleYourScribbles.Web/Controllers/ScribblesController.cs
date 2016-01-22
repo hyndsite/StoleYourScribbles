@@ -33,14 +33,6 @@ namespace StoleYourScribbles.Web.Controllers
             _scribblesRepository = new ScribblesRepository(cloudTableClient(tableName));
         }
 
-        [HttpGet]
-        [Route("~/api/scribbles/Test")]
-        public IHttpActionResult Test()
-        {
-            return Ok();
-        }
-
-
         [Route("~/api/scribbles/stolen")]
         [HttpGet]
         public async Task<IHttpActionResult> StolenScribble([FromUri] string data)
@@ -54,7 +46,7 @@ namespace StoleYourScribbles.Web.Controllers
             using (var jsonStream = new JsonTextReader(streamReader))
             {
                 var serializer = new JsonSerializer();
-                scribble = (string[]) serializer.Deserialize(jsonStream, typeof (string[]));
+                scribble = (string[])serializer.Deserialize(jsonStream, typeof(string[]));
             }
 
             string ipaddress = null;
