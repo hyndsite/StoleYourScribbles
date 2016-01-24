@@ -127,7 +127,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="appsecrets.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
