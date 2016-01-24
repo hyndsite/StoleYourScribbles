@@ -39,16 +39,9 @@ namespace StoleYourScribbles.Web
             var tableClient = storageAccount.CreateCloudTableClient();
             var table = tableClient.GetTableReference(tableName);
 
-            try
+            if (!await table.ExistsAsync())
             {
-                if (!await table.ExistsAsync())
-                {
-                    await table.CreateAsync();
-                }
-            }
-            catch (Exception ex)
-            {
-                
+                await table.CreateAsync();
             }
         }
     }
